@@ -15,13 +15,13 @@ Preview:
 ## How to install
 
 1. Grab the latest `.tar.gz` archive from [Releases](https://github.com/Amonith/mattermost-file-list/releases).
-2. Follow standard Mattermost plugin installation procedure (either install it through the web system console or directly by extracting it to /plugins/ folder).
+2. Follow standard Mattermost plugin installation procedure (either install it through the web system console or directly by extracting it to `/plugins/` folder).
 3. Remember to check out plugin settings for additonal features!
 
 ## How to develop
 
 This projects uses Docker containers to build, so you don't have to install any dependencies other than Docker.
-Simply run `docker-build.ps1` (on *nix systems you need Powershell) and the project will be built inside an autmatically configured temporary container.
+Simply run `docker-build.ps1` (on *nix systems you need PowerShell) and the project will be built inside an autmatically configured temporary container.
 The container caches entire GOPATH inside `.docker_cache` directory, so it should be fast and dependencies won't be redownloaded everytime you run the build.
 Have fun :)
 
